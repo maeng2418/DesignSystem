@@ -7,3 +7,4 @@
 - 라이브러리 최신화
 - Styled-Component 적용
 - 스토리북 적용
+- eslint 및 prettier 설정
