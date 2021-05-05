@@ -1,14 +1,12 @@
-type colorType = {
-  [key: string]: string;
-};
+import { IColor } from 'styles';
 
-const palette: colorType = {
+const palette: IColor = {
   white: '#ffffff',
   black: '#131313',
   'bg-black': '#000000',
 };
 
-const lightColor: colorType = {
+const lightColor: IColor = {
   // Gray
   'gray-100': '#f5f5f5',
   'gray-200': '#e6e6e6',
@@ -48,7 +46,7 @@ const lightColor: colorType = {
   'primary-700': '#0062a4',
 };
 
-const darkColor: colorType = {
+const darkColor: IColor = {
   // Gray
   'gray-100': '#202020',
   'gray-200': '#272727',

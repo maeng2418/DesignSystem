@@ -1,8 +1,6 @@
-type typographType = {
-  [key: string]: string;
-};
+import { ITypograph } from 'styles';
 
-const typograph: typographType = {
+const typograph: ITypograph = {
   h1: `font-size : 36px; line-height: 54px;`,
   h2: `font-size: 28px; line-height: 42px;`,
   h3: `font-size: 24px; line-height: 36px;`,
